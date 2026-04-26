@@ -1,0 +1,36 @@
+.dot {
+  position: absolute;
+  border-radius: 50%;
+  background: #ffffff;
+  border: 1.5px solid #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  color: #333;
+  cursor: pointer;
+  user-select: none;
+  transition: opacity 0.5s ease, background 0.2s, border-color 0.2s, color 0.2s;
+}
+
+.dot:hover {
+  border-color: #e53935;
+  color: #e53935;
+}
+
+.dot--clicked {
+  background: #ef5350;
+  border-color: #ef5350;
+  color: #fff;
+  cursor: default;
+}
+
+.dot--clicked:hover {
+  border-color: #ef5350;
+  color: #fff;
+}
+
+.dot--gone {
+  opacity: 0;
+  pointer-events: none;
+}
