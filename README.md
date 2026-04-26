@@ -43,8 +43,3 @@ npm run dev
 npm run build
 ```
 
-### 4) Preview production build
-
-```bash
-npm run preview
-```
