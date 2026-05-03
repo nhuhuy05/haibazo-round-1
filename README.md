@@ -1,6 +1,6 @@
 # Haibazo Number Game
 
-A small React + Vite number-clicking game.
+A small React + Vite number-clicking game
 
 ## Gameplay
 
